@@ -6,7 +6,7 @@
 
       %button.navbar-toggle.collapsed{"data-target" =>" #bs-navbar-collapse-1", "data-toggle" => "collapse", type: "button" }
 
-      %span.nr-only Toggle Navigation
+      %span.sr-only Toggle Navigation
 
       %span.icon-bar
 
@@ -16,15 +16,16 @@
 
   .collapse.navbar-collapse#bs-navbar-collapse-1
 
-     %ul.nav.navbar-nav.navbar-right
+    %ul.nav.navbar-nav.navbar-right
 
-       %li
+      %li
 
-          = link_to "New Post", new_post_path
+        = link_to "New Post", new_post_path
 
-       %li
+      %li
 
-          = link_to "Login", '#'
+        = link_to "Login", '#'
 
-       %li
-          = link_to "Register", "#"
+      %li
+
+        = link_to "Register", '#'
