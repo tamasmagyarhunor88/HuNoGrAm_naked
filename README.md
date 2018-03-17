@@ -1,24 +1,4 @@
-# README
+### HuNoGrAm_naked
+## this is a followed tutorial for making an Instagram clone with no tests
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+There is a TDD version coming up as well! I love TDD don't curse me for this :D
