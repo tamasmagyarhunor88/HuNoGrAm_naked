@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Add Bootstrap
+gem 'bootstrap-sass'
 # Add forms gem
 gem 'simple_form'
 # Image processing I guess
