@@ -5,6 +5,9 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+
+# Image processing I guess
+gem 'paperclip'
 # Add Haml! Haml is another subs for erb. will use this for the sake of trying it out
 gem 'haml'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
